@@ -1,0 +1,300 @@
+================================================================================
+MeloWrite - Third-Party Licenses & Attributions
+================================================================================
+
+MeloWrite is built with and bundles the third-party software, fonts, and sound
+content listed below. Each remains the property of its respective authors and is
+included under the license noted. MeloWrite itself and its own original content
+are covered by the MeloWrite EULA.
+
+
+################################################################################
+# UI FRAMEWORK
+################################################################################
+
+--------------------------------------------------------------------------------
+Aseprite UI Library (src/ui) - retained widget tree
+--------------------------------------------------------------------------------
+MeloWrite's widget tree (src/app/gui: Widget, Manager, Message, Button and
+the controls built on them) is a C# port of the Aseprite UI library's design and
+message-routing behaviour.
+
+Copyright (c) 2018-2025 Igara Studio S.A.
+Copyright (c) 2001-2018 David Capello
+
+Licensed under the MIT License.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Only the MIT-licensed src/ui portion of Aseprite was used. No code from
+Aseprite's application source (src/app), which is covered by the Aseprite EULA,
+was copied or adapted.
+
+--------------------------------------------------------------------------------
+Aseprite Undo Library (github.com/aseprite/undo) - non-linear undo history
+--------------------------------------------------------------------------------
+MeloWrite's undo history (src\app\undo\UndoHistory.cs: UndoState, UndoHistory) is
+a C# port of the Aseprite Undo Library's design and history-tree behaviour.
+
+Copyright (c) 2015-2022 David Capello
+
+Licensed under the MIT License.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+The Undo Library is a standalone MIT-licensed repository, vendored by Aseprite
+as a submodule; it is not part of Aseprite's EULA-covered application source.
+
+################################################################################
+# FONTS
+################################################################################
+
+--------------------------------------------------------------------------------
+MeloWrite Font (melowrite.ttf)
+--------------------------------------------------------------------------------
+The primary pixel UI font is an original typeface created by Joe Nicholson in
+BitFontMaker2, inspired by the look of the Aseprite font. It is MeloWrite's own
+work and is not licensed from a third party. Acknowledgment to Aseprite
+(https://www.aseprite.org) for the design inspiration.
+
+--------------------------------------------------------------------------------
+IBM Plex Sans
+--------------------------------------------------------------------------------
+Copyright (C) 2017 IBM Corp. with Reserved Font Name "Plex".
+Licensed under the SIL Open Font License, Version 1.1 (OFL-1.1).
+Full text: https://openfontlicense.org/open-font-license-official-text/
+
+--------------------------------------------------------------------------------
+JetBrains Mono
+--------------------------------------------------------------------------------
+Copyright 2020 The JetBrains Mono Project Authors
+(https://github.com/JetBrains/JetBrainsMono)
+Licensed under the SIL Open Font License, Version 1.1 (OFL-1.1).
+Full text: https://openfontlicense.org/open-font-license-official-text/
+
+--------------------------------------------------------------------------------
+Tiny Unicode
+--------------------------------------------------------------------------------
+By DuffsDevice (Jakob Riedle).
+Licensed under a Creative Commons Attribution license.
+Source: https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=468
+
+
+################################################################################
+# LIBRARIES
+################################################################################
+
+--------------------------------------------------------------------------------
+SDL3  -  https://www.libsdl.org/
+(includes SDL3, SDL3_image, SDL3_ttf. C# bindings: ppy.SDL3-CS, MIT)
+--------------------------------------------------------------------------------
+Copyright (C) 1997-2026 Sam Lantinga <slouken@libsdl.org>
+
+This software is provided 'as-is', without any express or implied
+warranty.  In no event will the authors be held liable for any damages
+arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not
+   claim that you wrote the original software. If you use this software
+   in a product, an acknowledgment in the product documentation would be
+   appreciated but is not required.
+2. Altered source versions must be plainly marked as such, and must not be
+   misrepresented as being the original software.
+3. This notice may not be removed or altered from any source distribution.
+
+--------------------------------------------------------------------------------
+MeltySynth  -  https://github.com/sinshu/meltysynth
+--------------------------------------------------------------------------------
+Copyright (C) 2021 Nobuaki Tanaka
+Copyright (C) 2014 Alex Veltsistas
+Copyright (C) 2017, 2018 Bernhard Schelling
+Copyright (C) 2012 Steve Folta
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------------
+miniaudio  -  https://miniaud.io/
+--------------------------------------------------------------------------------
+Copyright 2025 David Reid
+
+MIT No Attribution
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+--------------------------------------------------------------------------------
+PSX reverb  -  https://github.com/ipatix/lv2-psx-reverb
+--------------------------------------------------------------------------------
+The "psx verb" mode of the Space effect is a C# reimplementation of the PS1 SPU
+reverb, ported from lv2-psx-reverb.
+Copyright 2006-2016 David Robillard
+Copyright 2006 Steve Harris
+Copyright 2023 Michael Panzlaff
+
+Permission to use, copy, modify, and/or distribute this software for any purpose
+with or without fee is hereby granted, provided that the above copyright notice
+and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS
+OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
+THIS SOFTWARE.
+
+--------------------------------------------------------------------------------
+SNES SPC700 echo  -  https://github.com/nyanpasu64-backup/snes-echo
+--------------------------------------------------------------------------------
+The "SNES Echo" effect is an original C# implementation of the SNES SPC700 DSP echo
+(echo buffer + 8-tap FIR + feedback), written from the documented hardware
+behavior. nyanpasu64's snes-echo is acknowledged as a reference for the design.
+
+--------------------------------------------------------------------------------
+.NET runtime / System.Text.Json  -  https://github.com/dotnet
+--------------------------------------------------------------------------------
+Copyright (c) .NET Foundation and Contributors. Licensed under the MIT License.
+
+
+################################################################################
+# SOUND CONTENT (SOUNDFONTS / INSTRUMENTS)
+################################################################################
+
+NOTE: The entries below cover the sound content cleared for distribution. The
+exact set shipped may change between releases.
+
+--------------------------------------------------------------------------------
+GeneralUser GS  -  by S. Christian Collins
+https://www.schristiancollins.com/generaluser.php
+--------------------------------------------------------------------------------
+GeneralUser GS (c) S. Christian Collins. Used under the GeneralUser GS license,
+which permits private and commercial use, modification, and bundling within
+software products. See the GeneralUser GS license document for full terms.
+
+--------------------------------------------------------------------------------
+Florestan instruments  -  by Nando Florestan
+https://dev.nando.audio/pages/soundfonts.html
+--------------------------------------------------------------------------------
+Released into the Public Domain by Nando Florestan.
+
+--------------------------------------------------------------------------------
+FreePats  -  https://freepats.zenvoid.org/
+--------------------------------------------------------------------------------
+FreePats sample sets, used under their respective FreePats licenses
+(CC0 / CC-BY). See https://freepats.zenvoid.org/licenses.html
+
+--------------------------------------------------------------------------------
+"Vini" sample library  -  via Musical Artifacts
+https://musical-artifacts.com/
+--------------------------------------------------------------------------------
+Original samples by "Vini", released into the Public Domain.
+
+--------------------------------------------------------------------------------
+Adventure Kid impulse responses (reverb)  -  by Kristoffer Ekstrand
+https://www.adventurekid.se/akrt/free-reverb-impulse-responses/
+--------------------------------------------------------------------------------
+The "AK-SROOMS" (small rooms) and "AKIR Springer" (spring reverb) convolution
+impulse responses are by Kristoffer Ekstrand / Adventure Kid, licensed under the
+Creative Commons Attribution 4.0 International License (CC-BY 4.0).
+Full text: https://creativecommons.org/licenses/by/4.0/
+
+--------------------------------------------------------------------------------
+PS1 Studio impulse response (reverb)  -  by Shirobon
+https://shirobon.bandcamp.com/track/ps1-studio-ir
+--------------------------------------------------------------------------------
+The "PS1 Studio" convolution impulse response is by Shirobon, licensed under the
+Creative Commons Attribution 4.0 International License (CC-BY 4.0). Processed
+for use in MeloWrite.
+Full text: https://creativecommons.org/licenses/by/4.0/
+
+--------------------------------------------------------------------------------
+OpenAIR impulse responses (reverb)  -  OpenAIR, University of York
+https://www.openair.hosted.york.ac.uk/
+--------------------------------------------------------------------------------
+The following convolution impulse responses are from the OpenAIR library,
+University of York, licensed under the Creative Commons Attribution 4.0
+International License (CC-BY 4.0):
+  Falkland Palace Royal Tennis Court
+    https://www.openair.hosted.york.ac.uk/?page_id=476
+  Creswell Crags
+    https://www.openair.hosted.york.ac.uk/?page_id=441
+  St Andrew's Church (by Damian T. Murphy)
+    https://www.openair.hosted.york.ac.uk/?page_id=683
+  Slinky IR (spring reverb)
+    https://www.openair.hosted.york.ac.uk/?page_id=652
+Full text: https://creativecommons.org/licenses/by/4.0/
+
+
+################################################################################
+# TOOLS
+################################################################################
+
+--------------------------------------------------------------------------------
+LAME (libmp3lame)  -  https://lame.sourceforge.io/
+--------------------------------------------------------------------------------
+MP3 export uses the LAME encoder (data/tools/lame.exe).
+LAME is licensed under the GNU Lesser General Public License (LGPL).
+Full text: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+Source: https://lame.sourceforge.io/

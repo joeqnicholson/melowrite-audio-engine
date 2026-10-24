@@ -1,0 +1,4 @@
+<linker>
+  <!-- Preserve source bindings and reverse native callbacks in IL2CPP players. -->
+  <assembly fullname="Melowrite.Runtime" preserve="all"/>
+</linker>
