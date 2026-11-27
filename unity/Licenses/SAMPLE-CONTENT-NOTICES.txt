@@ -1,0 +1,12 @@
+Adaptive Music Demo - sample content notices
+
+--------------------------------------------------------------------------------
+GeneralUser GS  -  by S. Christian Collins
+https://www.schristiancollins.com/generaluser.php
+--------------------------------------------------------------------------------
+GeneralUser GS (c) S. Christian Collins. Used under the GeneralUser GS license,
+which permits private and commercial use, modification, and bundling within
+software products. See the GeneralUser GS license document for full terms.
+
+Covers Projects/Soundfonts/General User v1.472.sf2 and the drum samples in
+Projects/Samples, which come from it.

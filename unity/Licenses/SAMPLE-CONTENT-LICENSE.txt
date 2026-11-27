@@ -1,0 +1,13 @@
+MELOWRITE SAMPLE CONTENT
+
+The sample scene's music, recordings, presets, samples, SoundFonts, impulse
+responses and artwork are separate from the software Runtime license.
+
+For original Melowrite sample content, you may use the content to create,
+perform, record and distribute your own audio and musical productions,
+including commercial productions, without royalties. You may not redistribute,
+resell, license or share the content on a standalone basis or as a sample
+library, SoundFont pack, sound-effect collection or competing product.
+
+Third-party sample content remains subject to its original terms, described
+in SAMPLE-CONTENT-NOTICES.txt. Those terms govern the respective content.
